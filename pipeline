@@ -1,0 +1,8 @@
+cc-deps: concourse.check https://capi.ci.cf-app.com ci capi724bara capi check-cc-dependencies
+migrations: concourse.check https://capi.ci.cf-app.com ci capi724bara capi check-cc-dependencies
+create-release: concourse.check https://runtime.ci.cf-app.com ci marsh8mini cf-release create-release
+tabasco: concourse.check https://runtime.ci.cf-app.com ci marsh8mini cf-release deploy-and-test-tabasco
+deploy-v1-dummy-broker: concourse.check https://runtime.ci.cf-app.com ci marsh8mini cf-release deploy-v1-dummy-broker
+cc-unit-tests: concourse.check https://runtime.ci.cf-app.com ci marsh8mini cf-release cc-unit-tests
+cf-release: concourse.check https://runtime.ci.cf-app.com ci marsh8mini cf-release cf-release-unit-tests
+
