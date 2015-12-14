@@ -1,5 +1,5 @@
 cc-deps: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
-migrations: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
+migrations: concourse.check https://capi.ci.cf-app.com capi migration-backwards-compatibility-test
 create-release: concourse.check https://runtime.ci.cf-app.com cf-release create-release
 tabasco: concourse.check https://runtime.ci.cf-app.com cf-release deploy-and-test-tabasco
 cc-unit-tests: concourse.check https://runtime.ci.cf-app.com cf-release cc-unit-tests
