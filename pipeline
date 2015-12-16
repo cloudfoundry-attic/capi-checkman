@@ -1,7 +1,9 @@
 cc-deps: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
 migrations: concourse.check https://capi.ci.cf-app.com capi migration-backwards-compatibility-test
-create-release: concourse.check https://runtime.ci.cf-app.com cf-release create-release
-tabasco: concourse.check https://runtime.ci.cf-app.com cf-release deploy-and-test-tabasco
-cc-unit-tests: concourse.check https://runtime.ci.cf-app.com cf-release cc-unit-tests
+create-release: concourse.check https://capi.ci.cf-app.com capi create-release
+cc-unit-tests: concourse.check https://capi.ci.cf-app.com capi cc-unit-tests
+xena: concourse.check https://capi.ci.cf-app.com capi deploy-and-test-xena
+
 cf-release: concourse.check https://runtime.ci.cf-app.com cf-release cf-release-unit-tests
+tabasco: concourse.check https://runtime.ci.cf-app.com cf-release deploy-and-test-tabasco
 
