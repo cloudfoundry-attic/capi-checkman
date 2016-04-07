@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+function local_changes_exist() {
+  git fetch origin
+  git status -uno | grep behind &>/dev/null
+}
+
+function update_local_repo() {
+  echo "Updating local configuration"
+  git pull
+}
+
+function restart_checkman() {
+  pkill -f Checkman
+  open /Applications/Checkman.app
+}
+
+function main() {
+  if local_changes_exist; then
+    update_local_repo
+    restart_checkman
+  fi
+}
+
+main
