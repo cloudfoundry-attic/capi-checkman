@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+readonly CHECKMAN_REPO=$(dirname "${BASH_SOURCE[0]}")/..
+
 function local_changes_exist() {
   git fetch origin
   git status -uno | grep behind &>/dev/null
@@ -16,10 +18,12 @@ function restart_checkman() {
 }
 
 function main() {
-  if local_changes_exist; then
-    update_local_repo
-    restart_checkman
-  fi
+  pushd ${CHECKMAN_REPO} > /dev/null
+    if local_changes_exist; then
+      update_local_repo
+      restart_checkman
+    fi
+  popd > /dev/null
 }
 
 main
