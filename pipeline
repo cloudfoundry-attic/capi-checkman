@@ -1,5 +1,6 @@
 check-cc-dependencies: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
 cc-unit-tests: concourse.check https://capi.ci.cf-app.com capi cc-unit-tests
+bump-capi-release: concourse.check https://capi.ci.cf-app.com capi bump-capi-release
 bridge-unit-tests: concourse.check https://capi.ci.cf-app.com capi bridge-unit-tests
 create-capi-release: concourse.check https://capi.ci.cf-app.com capi create-capi-release
 deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com capi deploy-and-test-xena
