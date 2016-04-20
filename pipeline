@@ -5,6 +5,7 @@ bridge-unit-tests: concourse.check https://capi.ci.cf-app.com capi bridge-unit-t
 create-capi-release: concourse.check https://capi.ci.cf-app.com capi create-capi-release
 deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com capi deploy-and-test-xena
 bump-cf-release: concourse.check https://capi.ci.cf-app.com capi bump-cf-release
+MANUALLY-bump-cf-release: concourse.check https://capi.ci.cf-app.com capi MANUALLY-bump-cf-release
 deploy-diego-xena: concourse.check https://capi.ci.cf-app.com capi deploy-diego-xena
 migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.com capi migration-backwards-compatibility-test
 clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com capi clean-all-the-boshes
