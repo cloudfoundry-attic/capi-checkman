@@ -18,5 +18,5 @@ freshen-wasabi: concourse.check https://capi.ci.cf-app.com capi freshen-wasabi
 freshen-xena: concourse.check https://capi.ci.cf-app.com capi freshen-xena
 deliver-stories: concourse.check https://capi.ci.cf-app.com capi deliver-stories
 deploy-concourse: concourse.check https://capi.ci.cf-app.com concourse deploy-concourse
-rc-docs: concourse.check https://capi.ci.cf-app.com docker rc-docs
-ruby-units: concourse.check https://capi.ci.cf-app.com docker ruby-units
+rc-docs-docker: concourse.check https://capi.ci.cf-app.com docker rc-docs-docker
+ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-docker
