@@ -20,3 +20,5 @@ deliver-stories: concourse.check https://capi.ci.cf-app.com capi deliver-stories
 deploy-concourse: concourse.check https://capi.ci.cf-app.com concourse deploy-concourse
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com docker rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-docker
+go-units-docker: concourse.check https://capi.ci.cf-app.com docker go-units-docker
+bosh-init-docker: concourse.check https://capi.ci.cf-app.com docker bosh-init-docker
