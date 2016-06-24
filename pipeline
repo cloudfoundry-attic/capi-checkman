@@ -7,7 +7,6 @@ deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com capi deploy-and
 ship-it: concourse.check https://capi.ci.cf-app.com capi ship-it
 bump-cf-release: concourse.check https://capi.ci.cf-app.com capi bump-cf-release
 MANUALLY-bump-cf-release: concourse.check https://capi.ci.cf-app.com capi MANUALLY-bump-cf-release
-deploy-diego-xena: concourse.check https://capi.ci.cf-app.com capi deploy-diego-xena
 migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.com capi migration-backwards-compatibility-test
 clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com capi clean-all-the-boshes
 deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com capi deploy-xena-datadog-firehose-nozzle
