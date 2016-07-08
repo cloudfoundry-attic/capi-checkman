@@ -1,4 +1,5 @@
 cc-unit-tests-with-migrations: concourse.check https://capi.ci.cf-app.com capi cc-unit-tests-with-migrations
+app-availability-during-migration: concourse.check https://capi.ci.cf-app.com capi app-availability-during-migration
 check-cc-dependencies: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
 cc-unit-tests: concourse.check https://capi.ci.cf-app.com capi cc-unit-tests
 bump-capi-release: concourse.check https://capi.ci.cf-app.com capi bump-capi-release
