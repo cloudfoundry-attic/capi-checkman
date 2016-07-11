@@ -24,3 +24,4 @@ ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-
 go-units-docker: concourse.check https://capi.ci.cf-app.com docker go-units-docker
 bosh-init-docker: concourse.check https://capi.ci.cf-app.com docker bosh-init-docker
 bosh-lite-docker: concourse.check https://capi.ci.cf-app.com docker bosh-lite-docker
+spiff-docker: concourse.check https://capi.ci.cf-app.com docker spiff-docker
