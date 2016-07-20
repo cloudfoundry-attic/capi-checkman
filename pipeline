@@ -17,7 +17,6 @@ wait-for-sunday: concourse.check https://capi.ci.cf-app.com capi wait-for-sunday
 freshen-wasabi: concourse.check https://capi.ci.cf-app.com capi freshen-wasabi
 freshen-xena: concourse.check https://capi.ci.cf-app.com capi freshen-xena
 deliver-stories: concourse.check https://capi.ci.cf-app.com capi deliver-stories
-reset-version: concourse.check https://capi.ci.cf-app.com capi reset-version
 deploy-concourse: concourse.check https://capi.ci.cf-app.com concourse deploy-concourse
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com docker rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-docker
