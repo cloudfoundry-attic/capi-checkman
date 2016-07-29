@@ -22,6 +22,7 @@ rc-docs-docker: concourse.check https://capi.ci.cf-app.com docker rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com docker go-units-docker
 bosh-init-docker: concourse.check https://capi.ci.cf-app.com docker bosh-init-docker
+runtime-ci: concourse.check https://capi.ci.cf-app.com docker runtime-ci
 bosh-lite-docker: concourse.check https://capi.ci.cf-app.com docker bosh-lite-docker
 spiff-docker: concourse.check https://capi.ci.cf-app.com docker spiff-docker
 cc-unit-tests-with-migrations: concourse.check https://capi.ci.cf-app.com migration cc-unit-tests-with-migrations
