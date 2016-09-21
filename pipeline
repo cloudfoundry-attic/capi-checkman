@@ -1,34 +1,34 @@
-check-cc-dependencies: concourse.check https://capi.ci.cf-app.com capi check-cc-dependencies
-migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.com capi migration-backwards-compatibility-test
-deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com capi deploy-and-test-xena
-bump-cf-release: concourse.check https://capi.ci.cf-app.com capi bump-cf-release
-clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com capi clean-all-the-boshes
-deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com capi deploy-xena-datadog-firehose-nozzle
-cc-unit-tests: concourse.check https://capi.ci.cf-app.com capi cc-unit-tests
-rc-docs: concourse.check https://capi.ci.cf-app.com capi rc-docs
-freshen-wasabi: concourse.check https://capi.ci.cf-app.com capi freshen-wasabi
-freshen-xena: concourse.check https://capi.ci.cf-app.com capi freshen-xena
-create-capi-release: concourse.check https://capi.ci.cf-app.com capi create-capi-release
-wait-for-sunday: concourse.check https://capi.ci.cf-app.com capi wait-for-sunday
-bridge-unit-tests: concourse.check https://capi.ci.cf-app.com capi bridge-unit-tests
-update-checkman: concourse.check https://capi.ci.cf-app.com capi update-checkman
-bump-capi-release: concourse.check https://capi.ci.cf-app.com capi bump-capi-release
-MANUALLY-bump-cf-release: concourse.check https://capi.ci.cf-app.com capi MANUALLY-bump-cf-release
-ship-it: concourse.check https://capi.ci.cf-app.com capi ship-it
-deliver-stories: concourse.check https://capi.ci.cf-app.com capi deliver-stories
-push-github-release: concourse.check https://capi.ci.cf-app.com capi push-github-release
-deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com capi deploy-cf-mysql
-bump-cc-api: concourse.check https://capi.ci.cf-app.com capi bump-cc-api
-publish-docs: concourse.check https://capi.ci.cf-app.com capi publish-docs
-deploy-concourse: concourse.check https://capi.ci.cf-app.com concourse deploy-concourse
-rc-docs-docker: concourse.check https://capi.ci.cf-app.com docker rc-docs-docker
-ruby-units-docker: concourse.check https://capi.ci.cf-app.com docker ruby-units-docker
-go-units-docker: concourse.check https://capi.ci.cf-app.com docker go-units-docker
-bosh-init-docker: concourse.check https://capi.ci.cf-app.com docker bosh-init-docker
-bosh-lite-docker: concourse.check https://capi.ci.cf-app.com docker bosh-lite-docker
-spiff-docker: concourse.check https://capi.ci.cf-app.com docker spiff-docker
-runtime-ci: concourse.check https://capi.ci.cf-app.com docker runtime-ci
-cc-unit-tests-with-migrations: concourse.check https://capi.ci.cf-app.com migration cc-unit-tests-with-migrations
-app-availability-during-migration: concourse.check https://capi.ci.cf-app.com migration app-availability-during-migration
-configure-buffy-networking: concourse.check https://capi.ci.cf-app.com migration configure-buffy-networking
-deploy-and-test-arya: concourse.check https://capi.ci.cf-app.com migration deploy-and-test-arya
+check-cc-dependencies: concourse.check https://capi.ci.cf-app.com main capi check-cc-dependencies
+migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.com main capi migration-backwards-compatibility-test
+deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-xena
+bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi bump-cf-release
+clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com main capi clean-all-the-boshes
+deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com main capi deploy-xena-datadog-firehose-nozzle
+cc-unit-tests: concourse.check https://capi.ci.cf-app.com main capi cc-unit-tests
+rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
+freshen-wasabi: concourse.check https://capi.ci.cf-app.com main capi freshen-wasabi
+freshen-xena: concourse.check https://capi.ci.cf-app.com main capi freshen-xena
+create-capi-release: concourse.check https://capi.ci.cf-app.com main capi create-capi-release
+wait-for-sunday: concourse.check https://capi.ci.cf-app.com main capi wait-for-sunday
+bridge-unit-tests: concourse.check https://capi.ci.cf-app.com main capi bridge-unit-tests
+update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
+bump-capi-release: concourse.check https://capi.ci.cf-app.com main capi bump-capi-release
+MANUALLY-bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi MANUALLY-bump-cf-release
+ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
+deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
+push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
+deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-mysql
+bump-cc-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-api
+publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
+deploy-concourse: concourse.check https://capi.ci.cf-app.com main concourse deploy-concourse
+rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker rc-docs-docker
+ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker ruby-units-docker
+go-units-docker: concourse.check https://capi.ci.cf-app.com main docker go-units-docker
+bosh-init-docker: concourse.check https://capi.ci.cf-app.com main docker bosh-init-docker
+bosh-lite-docker: concourse.check https://capi.ci.cf-app.com main docker bosh-lite-docker
+spiff-docker: concourse.check https://capi.ci.cf-app.com main docker spiff-docker
+runtime-ci: concourse.check https://capi.ci.cf-app.com main docker runtime-ci
+cc-unit-tests-with-migrations: concourse.check https://capi.ci.cf-app.com main migration cc-unit-tests-with-migrations
+app-availability-during-migration: concourse.check https://capi.ci.cf-app.com main migration app-availability-during-migration
+configure-buffy-networking: concourse.check https://capi.ci.cf-app.com main migration configure-buffy-networking
+deploy-and-test-arya: concourse.check https://capi.ci.cf-app.com main migration deploy-and-test-arya
