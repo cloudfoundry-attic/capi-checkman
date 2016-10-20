@@ -28,7 +28,3 @@ bosh-init-docker: concourse.check https://capi.ci.cf-app.com main docker bosh-in
 bosh-lite-docker: concourse.check https://capi.ci.cf-app.com main docker bosh-lite-docker
 spiff-docker: concourse.check https://capi.ci.cf-app.com main docker spiff-docker
 runtime-ci: concourse.check https://capi.ci.cf-app.com main docker runtime-ci
-cc-unit-tests-with-migrations: concourse.check https://capi.ci.cf-app.com main migration cc-unit-tests-with-migrations
-app-availability-during-migration: concourse.check https://capi.ci.cf-app.com main migration app-availability-during-migration
-configure-buffy-networking: concourse.check https://capi.ci.cf-app.com main migration configure-buffy-networking
-deploy-and-test-arya: concourse.check https://capi.ci.cf-app.com main migration deploy-and-test-arya
