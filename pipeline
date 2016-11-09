@@ -20,6 +20,7 @@ push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-g
 deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-mysql
 bump-cc-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-api
 publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
+deploy-and-test-buffy: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-buffy
 deploy-concourse: concourse.check https://capi.ci.cf-app.com main concourse deploy-concourse
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker ruby-units-docker
