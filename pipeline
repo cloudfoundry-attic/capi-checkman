@@ -13,7 +13,6 @@ wait-for-sunday: concourse.check https://capi.ci.cf-app.com main capi wait-for-s
 bridge-unit-tests: concourse.check https://capi.ci.cf-app.com main capi bridge-unit-tests
 update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
 bump-capi-release: concourse.check https://capi.ci.cf-app.com main capi bump-capi-release
-MANUALLY-bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi MANUALLY-bump-cf-release
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
@@ -21,6 +20,8 @@ deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-
 bump-cc-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-api
 publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
 deploy-and-test-buffy: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-buffy
+merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi merge-capi-release-master
+bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
 deploy-concourse: concourse.check https://capi.ci.cf-app.com main concourse deploy-concourse
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker ruby-units-docker
