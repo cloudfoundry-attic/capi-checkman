@@ -12,3 +12,7 @@ to date, install this crontab:
 ```bash
 0 * * * * /Users/pivotal/workspace/capi-checkman/scripts/update_checkman_config
 ```
+
+## URL
+
+[CI Display](http://fawn.cfapps.io)
