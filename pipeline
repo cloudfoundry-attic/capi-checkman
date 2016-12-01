@@ -16,7 +16,6 @@ rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
 bump-cc-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-api
 publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
 update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
-wait-for-sunday: concourse.check https://capi.ci.cf-app.com main capi wait-for-sunday
 freshen-wasabi: concourse.check https://capi.ci.cf-app.com main capi freshen-wasabi
 freshen-xena: concourse.check https://capi.ci.cf-app.com main capi freshen-xena
 deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
