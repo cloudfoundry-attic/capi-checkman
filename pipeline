@@ -22,3 +22,4 @@ freshen-xena: concourse.check https://capi.ci.cf-app.com main capi freshen-xena
 deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
 merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi merge-capi-release-master
 bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
+freshen-arya: concourse.check https://capi.ci.cf-app.com main capi freshen-arya
