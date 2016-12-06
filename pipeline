@@ -22,3 +22,4 @@ deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-st
 merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi merge-capi-release-master
 bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
 freshen-arya: concourse.check https://capi.ci.cf-app.com main capi freshen-arya
+bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-api
