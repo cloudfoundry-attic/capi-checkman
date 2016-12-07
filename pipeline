@@ -13,7 +13,6 @@ migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.c
 clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com main capi clean-all-the-boshes
 deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com main capi deploy-xena-datadog-firehose-nozzle
 rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
-bump-cc-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-api
 publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
 update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
 freshen-wasabi: concourse.check https://capi.ci.cf-app.com main capi freshen-wasabi
@@ -25,3 +24,4 @@ freshen-arya: concourse.check https://capi.ci.cf-app.com main capi freshen-arya
 bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-api
 bump-v2-docs: concourse.check https://capi.ci.cf-app.com main capi bump-v2-docs
 freshen-buffy: concourse.check https://capi.ci.cf-app.com main capi freshen-buffy
+bump-cc-v3-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v3-api
