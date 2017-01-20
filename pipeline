@@ -25,4 +25,3 @@ bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-
 bump-v2-docs: concourse.check https://capi.ci.cf-app.com main capi bump-v2-docs
 freshen-buffy: concourse.check https://capi.ci.cf-app.com main capi freshen-buffy
 bump-cc-v3-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v3-api
-deprovision-buffy: concourse.check https://capi.ci.cf-app.com main capi deprovision-buffy
