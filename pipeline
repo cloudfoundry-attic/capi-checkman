@@ -4,8 +4,6 @@ bump-capi-release: concourse.check https://capi.ci.cf-app.com main capi bump-cap
 bridge-unit-tests: concourse.check https://capi.ci.cf-app.com main capi bridge-unit-tests
 create-capi-release: concourse.check https://capi.ci.cf-app.com main capi create-capi-release
 deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-mysql
-deploy-and-test-xena: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-xena
-deploy-and-test-buffy: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-buffy
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
 bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi bump-cf-release
@@ -25,3 +23,5 @@ bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-
 bump-v2-docs: concourse.check https://capi.ci.cf-app.com main capi bump-v2-docs
 freshen-buffy: concourse.check https://capi.ci.cf-app.com main capi freshen-buffy
 bump-cc-v3-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v3-api
+deploy-and-test-mysql-s3-bbs: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-mysql-s3-bbs
+deploy-and-test-postgres-webdave-bridge: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-postgres-webdave-bridge
