@@ -27,3 +27,4 @@ deploy-and-test-mysql-s3-bbs: concourse.check https://capi.ci.cf-app.com main ca
 deploy-and-test-postgres-webdave-bridge: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-postgres-webdave-bridge
 deploy-and-test-mulan: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-mulan
 freshen-mulan: concourse.check https://capi.ci.cf-app.com main capi freshen-mulan
+deploy-and-test-ripley: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-ripley
