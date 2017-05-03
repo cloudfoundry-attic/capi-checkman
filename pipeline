@@ -31,3 +31,4 @@ deploy-and-test-ripley: concourse.check https://capi.ci.cf-app.com main capi dep
 freshen-ripley: concourse.check https://capi.ci.cf-app.com main capi freshen-ripley
 mssql-unit-tests: concourse.check https://capi.ci.cf-app.com main capi mssql-unit-tests
 freshen-elsa: concourse.check https://capi.ci.cf-app.com main capi freshen-elsa
+deploy-and-test-elsa: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-elsa
