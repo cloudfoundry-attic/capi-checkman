@@ -34,3 +34,4 @@ freshen-elsa: concourse.check https://capi.ci.cf-app.com main capi freshen-elsa
 deploy-and-test-elsa: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-elsa
 freshen-kiki: concourse.check https://capi.ci.cf-app.com main capi freshen-kiki
 deploy-and-test-kiki: concourse.check https://capi.ci.cf-app.com main capi deploy-and-test-kiki
+freshen-🐳: concourse.check https://capi.ci.cf-app.com main capi freshen-🐳
