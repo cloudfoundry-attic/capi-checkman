@@ -7,7 +7,6 @@ deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
 bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi bump-cf-release
-migration-backwards-compatibility-test: concourse.check https://capi.ci.cf-app.com main capi migration-backwards-compatibility-test
 clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com main capi clean-all-the-boshes
 deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com main capi deploy-xena-datadog-firehose-nozzle
 rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
