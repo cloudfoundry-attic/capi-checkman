@@ -3,12 +3,9 @@ cc-unit-tests: concourse.check https://capi.ci.cf-app.com main capi cc-unit-test
 bump-capi-release: concourse.check https://capi.ci.cf-app.com main capi bump-capi-release
 bridge-unit-tests: concourse.check https://capi.ci.cf-app.com main capi bridge-unit-tests
 create-capi-release: concourse.check https://capi.ci.cf-app.com main capi create-capi-release
-deploy-cf-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-cf-mysql
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
 bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi bump-cf-release
-clean-all-the-boshes: concourse.check https://capi.ci.cf-app.com main capi clean-all-the-boshes
-deploy-xena-datadog-firehose-nozzle: concourse.check https://capi.ci.cf-app.com main capi deploy-xena-datadog-firehose-nozzle
 rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
 publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
 update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
