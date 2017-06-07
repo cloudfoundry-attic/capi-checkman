@@ -26,3 +26,4 @@ update-bosh-kiki: concourse.check https://capi.ci.cf-app.com main capi update-bo
 update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-bosh-ripley
 create-bosh-lite: concourse.check https://capi.ci.cf-app.com main bosh-lite create-bosh-lite
 delete-bosh-lite: concourse.check https://capi.ci.cf-app.com main bosh-lite delete-bosh-lite
+slack-claimed-envs: concourse.check https://capi.ci.cf-app.com main bosh-lite slack-claimed-envs
