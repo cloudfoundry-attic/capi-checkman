@@ -25,6 +25,7 @@ update-bosh-elsa: concourse.check https://capi.ci.cf-app.com main capi update-bo
 update-bosh-kiki: concourse.check https://capi.ci.cf-app.com main capi update-bosh-kiki
 update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-bosh-ripley
 update-bosh-buffy: concourse.check https://capi.ci.cf-app.com main capi update-bosh-buffy
+run-drats: concourse.check https://capi.ci.cf-app.com main capi run-drats
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
