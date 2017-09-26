@@ -26,7 +26,7 @@ update-bosh-kiki: concourse.check https://capi.ci.cf-app.com main capi update-bo
 update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-bosh-ripley
 update-bosh-buffy: concourse.check https://capi.ci.cf-app.com main capi update-bosh-buffy
 run-drats: concourse.check https://capi.ci.cf-app.com main capi run-drats
-deploy-bbr: concourse.check https://capi.ci.cf-app.com main capi deploy-bbr
+deploy-bbr-mysql: concourse.check https://capi.ci.cf-app.com main capi deploy-bbr-mysql
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
