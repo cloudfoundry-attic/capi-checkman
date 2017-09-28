@@ -27,6 +27,8 @@ update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-
 update-bosh-buffy: concourse.check https://capi.ci.cf-app.com main capi update-bosh-buffy
 update-bosh-xena-mysql: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-mysql
 xena-mysql-drats: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-drats
+update-bosh-xena-postgres: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-postgres
+xena-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi xena-postgres-drats
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
