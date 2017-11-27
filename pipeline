@@ -22,6 +22,7 @@ update-bosh-elsa: concourse.check https://capi.ci.cf-app.com main capi update-bo
 update-bosh-kiki: concourse.check https://capi.ci.cf-app.com main capi update-bosh-kiki
 update-bosh-xena-mysql: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-mysql
 update-bosh-xena-postgres: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-postgres
+update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-bosh-ripley
 deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
 merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi merge-capi-release-master
 bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
