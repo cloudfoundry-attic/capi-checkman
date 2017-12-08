@@ -28,7 +28,7 @@ merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi 
 bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
 xena-mysql-drats: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-drats
 xena-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi xena-postgres-drats
-ripley-nfs-mysql: concourse.check https://capi.ci.cf-app.com main capi ripley-nfs-mysql
+ripley-nfs: concourse.check https://capi.ci.cf-app.com main capi ripley-nfs
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
