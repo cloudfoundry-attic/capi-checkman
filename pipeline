@@ -8,7 +8,6 @@ elsa-mysql-s3-bypass: concourse.check https://capi.ci.cf-app.com main capi elsa-
 kiki-back-compat-migrations: concourse.check https://capi.ci.cf-app.com main capi kiki-back-compat-migrations
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
-bump-cf-release: concourse.check https://capi.ci.cf-app.com main capi bump-cf-release
 rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
 bump-cc-v3-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v3-api
 bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-api
