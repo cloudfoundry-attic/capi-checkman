@@ -8,11 +8,8 @@ elsa-mysql-s3-bypass: concourse.check https://capi.ci.cf-app.com main capi elsa-
 kiki-back-compat-migrations: concourse.check https://capi.ci.cf-app.com main capi kiki-back-compat-migrations
 ship-it: concourse.check https://capi.ci.cf-app.com main capi ship-it
 push-github-release: concourse.check https://capi.ci.cf-app.com main capi push-github-release
-rc-docs: concourse.check https://capi.ci.cf-app.com main capi rc-docs
 bump-cc-v3-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v3-api
 bump-cc-v2-api: concourse.check https://capi.ci.cf-app.com main capi bump-cc-v2-api
-bump-v2-docs: concourse.check https://capi.ci.cf-app.com main capi bump-v2-docs
-publish-docs: concourse.check https://capi.ci.cf-app.com main capi publish-docs
 update-checkman: concourse.check https://capi.ci.cf-app.com main capi update-checkman
 update-bosh-arya: concourse.check https://capi.ci.cf-app.com main capi update-bosh-arya
 update-bosh-mulan: concourse.check https://capi.ci.cf-app.com main capi update-bosh-mulan
@@ -28,6 +25,9 @@ bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-pas
 xena-mysql-drats: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-drats
 xena-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi xena-postgres-drats
 ripley-nfs: concourse.check https://capi.ci.cf-app.com main capi ripley-nfs
+rc-docs-v3: concourse.check https://capi.ci.cf-app.com main capi rc-docs-v3
+update-api-info-v2-docs: concourse.check https://capi.ci.cf-app.com main capi update-api-info-v2-docs
+publish-docs-v3: concourse.check https://capi.ci.cf-app.com main capi publish-docs-v3
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
