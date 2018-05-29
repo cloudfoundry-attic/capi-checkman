@@ -1,4 +1,3 @@
-check-cc-dependencies: concourse.check https://capi.ci.cf-app.com main capi check-cc-dependencies
 cc-unit-tests: concourse.check https://capi.ci.cf-app.com main capi cc-unit-tests
 bump-capi-release: concourse.check https://capi.ci.cf-app.com main capi bump-capi-release
 bridge-unit-tests: concourse.check https://capi.ci.cf-app.com main capi bridge-unit-tests
