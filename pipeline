@@ -28,6 +28,7 @@ rc-docs-v3: concourse.check https://capi.ci.cf-app.com main capi rc-docs-v3
 update-api-info-v2-docs: concourse.check https://capi.ci.cf-app.com main capi update-api-info-v2-docs
 publish-docs-v3: concourse.check https://capi.ci.cf-app.com main capi publish-docs-v3
 update-and-push-docs-v2: concourse.check https://capi.ci.cf-app.com main capi update-and-push-docs-v2
+xena-mysql-rotate-ccdb-key: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-rotate-ccdb-key
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
