@@ -38,7 +38,6 @@ bosh-lite-docker: concourse.check https://capi.ci.cf-app.com main docker-images 
 bosh-docker: concourse.check https://capi.ci.cf-app.com main docker-images bosh-docker
 capi-dockerfiles-bbr-run-drats: concourse.check https://capi.ci.cf-app.com main docker-images capi-dockerfiles-bbr-run-drats
 migration-compatibility-docker: concourse.check https://capi.ci.cf-app.com main docker-images migration-compatibility-docker
-spiff-docker: concourse.check https://capi.ci.cf-app.com main docker-images spiff-docker
 sits-docker: concourse.check https://capi.ci.cf-app.com main docker-images sits-docker
 create-bosh-lite: concourse.check https://capi.ci.cf-app.com main bosh-lite create-bosh-lite
 delete-bosh-lite: concourse.check https://capi.ci.cf-app.com main bosh-lite delete-bosh-lite
