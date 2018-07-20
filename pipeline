@@ -35,7 +35,6 @@ go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images g
 bbl-docker: concourse.check https://capi.ci.cf-app.com main docker-images bbl-docker
 runtime-ci: concourse.check https://capi.ci.cf-app.com main docker-images runtime-ci
 bosh-lite-docker: concourse.check https://capi.ci.cf-app.com main docker-images bosh-lite-docker
-bosh-docker: concourse.check https://capi.ci.cf-app.com main docker-images bosh-docker
 capi-dockerfiles-bbr-run-drats: concourse.check https://capi.ci.cf-app.com main docker-images capi-dockerfiles-bbr-run-drats
 migration-compatibility-docker: concourse.check https://capi.ci.cf-app.com main docker-images migration-compatibility-docker
 sits-docker: concourse.check https://capi.ci.cf-app.com main docker-images sits-docker
