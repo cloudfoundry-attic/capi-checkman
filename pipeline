@@ -29,6 +29,7 @@ update-api-info-v2-docs: concourse.check https://capi.ci.cf-app.com main capi up
 publish-docs-v3: concourse.check https://capi.ci.cf-app.com main capi publish-docs-v3
 update-and-push-docs-v2: concourse.check https://capi.ci.cf-app.com main capi update-and-push-docs-v2
 xena-mysql-rotate-ccdb-key: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-rotate-ccdb-key
+capi-release-template-tests: concourse.check https://capi.ci.cf-app.com main capi capi-release-template-tests
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
