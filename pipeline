@@ -31,6 +31,7 @@ update-and-push-docs-v2: concourse.check https://capi.ci.cf-app.com main capi up
 xena-mysql-rotate-ccdb-key: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-rotate-ccdb-key
 capi-release-template-tests: concourse.check https://capi.ci.cf-app.com main capi capi-release-template-tests
 update-bosh-leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi update-bosh-leia-azure-storage
+leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi leia-azure-storage
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
