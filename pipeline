@@ -34,6 +34,7 @@ update-bosh-leia-azure-storage: concourse.check https://capi.ci.cf-app.com main 
 leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi leia-azure-storage
 update-bosh-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi update-bosh-rey-gcs-storage
 rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi rey-gcs-storage
+snyk-test: concourse.check https://capi.ci.cf-app.com main capi snyk-test
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
