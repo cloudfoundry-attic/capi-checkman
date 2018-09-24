@@ -16,13 +16,11 @@ update-bosh-buffy: concourse.check https://capi.ci.cf-app.com main capi update-b
 update-bosh-elsa: concourse.check https://capi.ci.cf-app.com main capi update-bosh-elsa
 update-bosh-kiki: concourse.check https://capi.ci.cf-app.com main capi update-bosh-kiki
 update-bosh-xena-mysql: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-mysql
-update-bosh-xena-postgres: concourse.check https://capi.ci.cf-app.com main capi update-bosh-xena-postgres
 update-bosh-ripley: concourse.check https://capi.ci.cf-app.com main capi update-bosh-ripley
 deliver-stories: concourse.check https://capi.ci.cf-app.com main capi deliver-stories
 merge-capi-release-master: concourse.check https://capi.ci.cf-app.com main capi merge-capi-release-master
 bump-ci-passed: concourse.check https://capi.ci.cf-app.com main capi bump-ci-passed
 xena-mysql-drats: concourse.check https://capi.ci.cf-app.com main capi xena-mysql-drats
-xena-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi xena-postgres-drats
 ripley-nfs: concourse.check https://capi.ci.cf-app.com main capi ripley-nfs
 rc-docs-v3: concourse.check https://capi.ci.cf-app.com main capi rc-docs-v3
 update-api-info-v2-docs: concourse.check https://capi.ci.cf-app.com main capi update-api-info-v2-docs
@@ -35,6 +33,8 @@ leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi leia-az
 update-bosh-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi update-bosh-rey-gcs-storage
 rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi rey-gcs-storage
 snyk-test: concourse.check https://capi.ci.cf-app.com main capi snyk-test
+update-bosh-gabrielle-postgres: concourse.check https://capi.ci.cf-app.com main capi update-bosh-gabrielle-postgres
+gabrielle-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi gabrielle-postgres-drats
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
