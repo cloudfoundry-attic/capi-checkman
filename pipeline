@@ -35,6 +35,10 @@ rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi rey-gcs-st
 snyk-test: concourse.check https://capi.ci.cf-app.com main capi snyk-test
 update-bosh-gabrielle-postgres: concourse.check https://capi.ci.cf-app.com main capi update-bosh-gabrielle-postgres
 gabrielle-postgres-drats: concourse.check https://capi.ci.cf-app.com main capi gabrielle-postgres-drats
+bbl-destroy-xena-mysql: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-xena-mysql
+bbl-destroy-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-rey-gcs-storage
+bbl-destroy-gabrielle-postgres: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-gabrielle-postgres
+bbl-destroy-leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-leia-azure-storage
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
