@@ -40,7 +40,6 @@ bbl-destroy-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main cap
 bbl-destroy-gabrielle-postgres: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-gabrielle-postgres
 bbl-destroy-leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi bbl-destroy-leia-azure-storage
 bump-bbs-protos: concourse.check https://capi.ci.cf-app.com main capi bump-bbs-protos
-verify-capi-release-commits: concourse.check https://capi.ci.cf-app.com main capi verify-capi-release-commits
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
