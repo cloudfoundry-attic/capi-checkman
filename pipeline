@@ -43,6 +43,10 @@ bump-bbs-protos: concourse.check https://capi.ci.cf-app.com main capi bump-bbs-p
 verify-capi-release-commits: concourse.check https://capi.ci.cf-app.com main capi verify-capi-release-commits
 rotate-certs-leia-azure-storage: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-leia-azure-storage
 rotate-certs-ripley: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-ripley
+rotate-certs-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-rey-gcs-storage
+rotate-certs-xena: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-xena
+rotate-certs-buffy: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-buffy
+rotate-certs-mulan: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-mulan
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
