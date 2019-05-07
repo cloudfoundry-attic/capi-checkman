@@ -47,6 +47,8 @@ rotate-certs-rey-gcs-storage: concourse.check https://capi.ci.cf-app.com main ca
 rotate-certs-xena: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-xena
 rotate-certs-buffy: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-buffy
 rotate-certs-mulan: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-mulan
+rotate-certs-kiki: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-kiki
+rotate-certs-gabrielle: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-gabrielle
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
