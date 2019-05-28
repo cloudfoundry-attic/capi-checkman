@@ -50,6 +50,7 @@ rotate-certs-mulan: concourse.check https://capi.ci.cf-app.com main capi rotate-
 rotate-certs-kiki: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-kiki
 rotate-certs-gabrielle: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-gabrielle
 thirtyfirstly-warning: concourse.check https://capi.ci.cf-app.com main capi thirtyfirstly-warning
+test-app: concourse.check https://capi.ci.cf-app.com main capi test-app
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
