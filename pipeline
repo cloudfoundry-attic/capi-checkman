@@ -51,6 +51,7 @@ rotate-certs-kiki: concourse.check https://capi.ci.cf-app.com main capi rotate-c
 rotate-certs-gabrielle: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-gabrielle
 thirtyfirstly-warning: concourse.check https://capi.ci.cf-app.com main capi thirtyfirstly-warning
 rotate-certs-arya: concourse.check https://capi.ci.cf-app.com main capi rotate-certs-arya
+autobump-golang-package: concourse.check https://capi.ci.cf-app.com main capi autobump-golang-package
 rc-docs-docker: concourse.check https://capi.ci.cf-app.com main docker-images rc-docs-docker
 ruby-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images ruby-units-docker
 go-units-docker: concourse.check https://capi.ci.cf-app.com main docker-images go-units-docker
